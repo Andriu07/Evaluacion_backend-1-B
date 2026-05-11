@@ -42,7 +42,7 @@ subjectController.upateSubject = async (req, res) =>{
 }
 
 //eliminar
-subjectController.deleteSubject = async (req, res) =>{
+subjectController.upateSubject = async (req, res) =>{
     await subjectModel.findByIdAndDelete(req.params.id);
     res.json({message:"materia eliminada"});
 };

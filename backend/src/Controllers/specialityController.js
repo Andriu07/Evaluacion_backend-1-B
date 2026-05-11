@@ -24,7 +24,7 @@ specialityController.insertSpeciality  = async (req, res) =>{
 }
 
 //update
-subjectController.upateSpeciality = async (req, res) =>{
+subjectController.updateSpeciality = async (req, res) =>{
     const{
        specialityName, 
         isAvailable
