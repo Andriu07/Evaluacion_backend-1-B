@@ -38,4 +38,4 @@ const teachersSchema = new Schema({
 }
 );
 
-export default model("Subjects", subjectsSchema);
+export default model("Teachers", teachersSchema);

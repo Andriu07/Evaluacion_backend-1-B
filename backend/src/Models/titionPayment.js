@@ -9,7 +9,7 @@ const titionPaymentSchema = new Schema({
         type: Decimal128
     },
     paymentDate:{
-        type:String
+        type: String
     },
     method:{
         type: String
