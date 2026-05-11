@@ -2,7 +2,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-export const condig ={
+export const config ={
     db:{
         URI:process.env.DB_URI,
     },
@@ -14,3 +14,5 @@ export const condig ={
         user_password: process.env.USER_PASSWORD,
     }
 };
+
+export default config;
